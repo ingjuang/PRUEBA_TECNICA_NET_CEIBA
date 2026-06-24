@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/scr/">
+    <Project Path="EventosVivosBackNet.Api/EventosVivosBackNet.Api.csproj" />
+    <Project Path="EventosVivosBackNet.Application/EventosVivosBackNet.Application.csproj" />
+    <Project Path="EventosVivosBackNet.Domain/EventosVivosBackNet.Domain.csproj" />
+    <Project Path="EventosVivosBackNet.Infrastructure/EventosVivosBackNet.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="EventosVivosBackNet.IntegrationTests/EventosVivosBackNet.IntegrationTests.csproj" />
+    <Project Path="EventosVivosBackNet.UnitTests/EventosVivosBackNet.UnitTests.csproj" />
+  </Folder>
+</Solution>

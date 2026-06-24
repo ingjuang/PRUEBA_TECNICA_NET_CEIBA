@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5191",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DbConnection": "Host=aws-1-us-east-2.pooler.supabase.com;Database=postgres;Username=postgres.entbmoalawvdnjmszzuw;Password=SeñorOso1996;SSL Mode=Require;Trust Server Certificate=true"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7127;http://localhost:5191",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DbConnection": "Host=aws-1-us-east-2.pooler.supabase.com;Database=postgres;Username=postgres.entbmoalawvdnjmszzuw;Password=SeñorOso1996;SSL Mode=Require;Trust Server Certificate=true"
+      }
+    }
+  }
+}

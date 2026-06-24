@@ -1,0 +1,19 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+## Visual Studio
+.vs/
+
+## IDE
+*.DotSettings.user
+.idea/
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
